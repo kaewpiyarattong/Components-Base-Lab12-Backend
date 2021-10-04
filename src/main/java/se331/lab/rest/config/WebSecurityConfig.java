@@ -78,6 +78,4 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         // disable page caching
         httpSecurity.headers().cacheControl();
     }
-
-
 }
